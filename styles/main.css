@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    padding: 10px;
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+
+header h2 {
+    font-size: 250%;
+    margin: .5em 0;
+    font-style: italic;
+    color: steelblue;
+    text-shadow: 2px 2px 8px steelblue;
+}
+
+header h3 {
+    font-size: 150%;
+    margin: .5em 0;
+}
+
+header img {
+    float: left;
+    margin-right: 2em;
+}
+
+section h2 {
+    margin: .5em 0;
+}
+
+h1 {
+    font-size: 175%;
+    clear: both;
+}
+
+p {
+    margin: 1em 0;
+}
+
+
+/* pseudo for section */
+
+section a:link {
+    color: maroon;
+}
+
+
+/* visited link */
+
+section a:visited {
+    color: maroon;
+}
+
+
+/* mouse over link */
+
+section a:hover {
+    color: steelblue;
+}
+
+
+/* selected link */
+
+section a:active {
+    color: steelblue;
+}
+
+aside a {
+    font-weight: bold;
+}
+
+
+/*pseudo classes for aside */
+
+aside a:link {
+    color: steelblue;
+}
+
+
+/* visited link */
+
+aside a:visited {
+    color: steelblue;
+}
+
+
+/* mouse over link */
+
+aside a:hover {
+    color: maroon;
+}
+
+
+/* selected link */
+
+aside a:active {
+    color: maroon;
+}
+
+aside ul {
+    line-height: 22px;
+    margin-left: 25px;
+}
+
+footer {
+    font-size: 80%;
+    text-align: center;
+    font-variant: small-caps;
+    border-top: 1px solid black;
+}
